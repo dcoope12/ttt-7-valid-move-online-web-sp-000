@@ -10,7 +10,7 @@ def valid_move?(board,index)
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def on_board?(number)
-if num.between?(0,8) == true
+if number.between?(0,8) == true
   return true
 else
   return false
